@@ -1,0 +1,106 @@
+.coordinators {
+  min-height: 100vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.chapter-coordinator {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 165px;
+  margin-bottom: 30px;
+}
+.faculty-advisor {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 165px;
+  margin-bottom: 30px;
+}
+.who-and-what {
+  background-image: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-top: 2px;
+}
+.coordinators-container {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-photo {
+  height: 200px;
+  width: auto;
+}
+
+.coordinator-achievements {
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .coordinators {
+    width: 100%;
+    display: block;
+  }
+  .chapter-coordinator {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .faculty-advisor {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .who-and-what {
+    font-size: 15px;
+  }
+  .profile-photo {
+    height: 150px;
+    border-radius: 10px;
+    width: auto;
+  }
+}
+
+@media (min-width: 610px) and (max-width: 900px) {
+  .coordinators {
+    width: 100%;
+    display: block;
+  }
+  .chapter-coordinator {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .faculty-advisor {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .who-and-what {
+    font-size: 15px;
+  }
+  .profile-photo {
+    height: 200px;
+    border-radius: 10px;
+    width: auto;
+  }
+}

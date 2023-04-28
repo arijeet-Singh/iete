@@ -1,0 +1,193 @@
+.become-member-heading {
+  font-size: 95px;
+  background-image: linear-gradient(to right, #00c9ff, #92fe9d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+.fee-qr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+.google-form {
+  height: 250px;
+}
+.qr-code {
+  height: 250px;
+}
+.qr {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fee {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.g-form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fee-str-heading {
+  font-size: 35px;
+  color: white;
+}
+.instruction {
+  font-size: 35px;
+  color: white;
+}
+.fee-structure {
+  height: 250px;
+  width: auto;
+}
+.register-and-contact {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  background-color: #050816;
+}
+
+.instruction {
+  text-align: left;
+}
+.contact-container {
+  background-color: #eee;
+}
+
+.contact-us {
+  margin-top: 150px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  padding-top: 0px;
+}
+.emails {
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.person {
+  padding: 5px;
+  text-align: left;
+  font-size: 20px;
+}
+.contact-heading {
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 40px;
+  font-size: 95px;
+  background-image: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+
+.mail-link:visited {
+  color: white;
+}
+.mail-link:active {
+  color: white;
+}
+.mail-link {
+  color: #777;
+  text-decoration: none;
+}
+.post {
+  color: #777;
+}
+.gf-ins:hover {
+  background-image: linear-gradient(to right, #00c9ff, #92fe9d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@media screen and (max-width: 600px) {
+  .become-member-heading {
+    font-size: 50px;
+  }
+  .fee-qr {
+    display: block;
+  }
+  .fee,
+  .g-form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fee-structure {
+    height: 225px;
+    width: auto;
+  }
+  .google-form {
+    height: 200px;
+    width: auto;
+  }
+  .contact-heading {
+    text-align: center;
+    font-size: 50px;
+  }
+  .contact-us {
+    width: 100%;
+  }
+  .emails {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (min-width: 610px) and (max-width: 900px) {
+  .fee-qr {
+    display: block;
+  }
+  .fee,
+  .g-form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fee-structure {
+    height: 325px;
+    width: auto;
+  }
+  .google-form {
+    height: 250px;
+    width: auto;
+  }
+  .contact-heading {
+    text-align: center;
+    font-size: 50px;
+  }
+  .contact-us {
+    width: 100%;
+  }
+  .emails {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
